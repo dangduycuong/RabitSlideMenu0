@@ -3,16 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CDCC2A37817AC546C50CDB48 /* Pods_RabitSlideMenuDemo0Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD03F7D6B30A57FBF88E68A9 /* Pods_RabitSlideMenuDemo0Tests.framework */; };
 		CE3B18D3221AA2A2001C8360 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3B18D2221AA2A2001C8360 /* AppDelegate.swift */; };
 		CE3B18D5221AA2A2001C8360 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3B18D4221AA2A2001C8360 /* ViewController.swift */; };
 		CE3B18D8221AA2A2001C8360 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3B18D6221AA2A2001C8360 /* Main.storyboard */; };
 		CE3B18DA221AA2A3001C8360 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3B18D9221AA2A3001C8360 /* Assets.xcassets */; };
 		CE3B18DD221AA2A3001C8360 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3B18DB221AA2A3001C8360 /* LaunchScreen.storyboard */; };
 		CE3B18E8221AA2A3001C8360 /* RabitSlideMenuDemo0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3B18E7221AA2A3001C8360 /* RabitSlideMenuDemo0Tests.swift */; };
+		D999EAB610E410968D529AA6 /* Pods_RabitSlideMenuDemo0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94A9D73348BFEB93C33C2FB /* Pods_RabitSlideMenuDemo0.framework */; };
+		FAECCA4428FEAFE100517D27 /* Documentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAECCA4328FEAFE100517D27 /* Documentation.swift */; };
+		FAECCA4728FEB07100517D27 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAECCA4628FEB07100517D27 /* Network.swift */; };
+		FAECCA4A28FEB0A100517D27 /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAECCA4928FEB0A100517D27 /* Data+Extension.swift */; };
+		FAECCA4F28FEB4A200517D27 /* FilmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAECCA4E28FEB4A200517D27 /* FilmsViewController.swift */; };
+		FAECCA5128FF904D00517D27 /* Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAECCA5028FF904D00517D27 /* Identifier.swift */; };
+		FAECCA5328FF906A00517D27 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAECCA5228FF906A00517D27 /* UIView+Extension.swift */; };
+		FAECCA5528FF908800517D27 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAECCA5428FF908800517D27 /* UITableView+Extension.swift */; };
+		FAECCA5B28FF943300517D27 /* FilmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAECCA5928FF943300517D27 /* FilmTableViewCell.swift */; };
+		FAECCA5C28FF943300517D27 /* FilmTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAECCA5A28FF943300517D27 /* FilmTableViewCell.xib */; };
+		FAECCA5F28FF958800517D27 /* FilmsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAECCA5E28FF958800517D27 /* FilmsViewModel.swift */; };
+		FAECCA6328FF9EC400517D27 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAECCA6228FF9EC400517D27 /* SearchView.swift */; };
+		FAECCA6528FF9ECD00517D27 /* SearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAECCA6428FF9ECD00517D27 /* SearchView.xib */; };
+		FAECCA6728FFA08E00517D27 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAECCA6628FFA08E00517D27 /* UIViewController+Extension.swift */; };
+		FAECCA6C28FFA3E100517D27 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAECCA6B28FFA3E100517D27 /* R.generated.swift */; };
+		FAECCA7028FFA41E00517D27 /* PlayfairDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAECCA6D28FFA41D00517D27 /* PlayfairDisplay-Regular.ttf */; };
+		FAECCA7128FFA41E00517D27 /* PlayfairDisplay-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAECCA6E28FFA41D00517D27 /* PlayfairDisplay-Italic.ttf */; };
+		FAECCA7228FFA41E00517D27 /* PlayfairDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAECCA6F28FFA41E00517D27 /* PlayfairDisplay-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FB0AF620A29FDE8CC455F30 /* Pods-RabitSlideMenuDemo0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RabitSlideMenuDemo0.release.xcconfig"; path = "Target Support Files/Pods-RabitSlideMenuDemo0/Pods-RabitSlideMenuDemo0.release.xcconfig"; sourceTree = "<group>"; };
+		434BF48462838EF440A35F6A /* Pods-RabitSlideMenuDemo0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RabitSlideMenuDemo0.debug.xcconfig"; path = "Target Support Files/Pods-RabitSlideMenuDemo0/Pods-RabitSlideMenuDemo0.debug.xcconfig"; sourceTree = "<group>"; };
+		4A14EFAC3447A4C8D497DC2E /* Pods-RabitSlideMenuDemo0Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RabitSlideMenuDemo0Tests.debug.xcconfig"; path = "Target Support Files/Pods-RabitSlideMenuDemo0Tests/Pods-RabitSlideMenuDemo0Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AD03F7D6B30A57FBF88E68A9 /* Pods_RabitSlideMenuDemo0Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RabitSlideMenuDemo0Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C94A9D73348BFEB93C33C2FB /* Pods_RabitSlideMenuDemo0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RabitSlideMenuDemo0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3B18CF221AA2A2001C8360 /* RabitSlideMenuDemo0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RabitSlideMenuDemo0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3B18D2221AA2A2001C8360 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE3B18D4221AA2A2001C8360 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +60,24 @@
 		CE3B18E3221AA2A3001C8360 /* RabitSlideMenuDemo0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RabitSlideMenuDemo0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3B18E7221AA2A3001C8360 /* RabitSlideMenuDemo0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RabitSlideMenuDemo0Tests.swift; sourceTree = "<group>"; };
 		CE3B18E9221AA2A3001C8360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6B2AFCC892F310AD901374B /* Pods-RabitSlideMenuDemo0Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RabitSlideMenuDemo0Tests.release.xcconfig"; path = "Target Support Files/Pods-RabitSlideMenuDemo0Tests/Pods-RabitSlideMenuDemo0Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FAECCA4328FEAFE100517D27 /* Documentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Documentation.swift; sourceTree = "<group>"; };
+		FAECCA4628FEB07100517D27 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		FAECCA4928FEB0A100517D27 /* Data+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extension.swift"; sourceTree = "<group>"; };
+		FAECCA4E28FEB4A200517D27 /* FilmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsViewController.swift; sourceTree = "<group>"; };
+		FAECCA5028FF904D00517D27 /* Identifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identifier.swift; sourceTree = "<group>"; };
+		FAECCA5228FF906A00517D27 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		FAECCA5428FF908800517D27 /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		FAECCA5928FF943300517D27 /* FilmTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmTableViewCell.swift; sourceTree = "<group>"; };
+		FAECCA5A28FF943300517D27 /* FilmTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilmTableViewCell.xib; sourceTree = "<group>"; };
+		FAECCA5E28FF958800517D27 /* FilmsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsViewModel.swift; sourceTree = "<group>"; };
+		FAECCA6228FF9EC400517D27 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		FAECCA6428FF9ECD00517D27 /* SearchView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchView.xib; sourceTree = "<group>"; };
+		FAECCA6628FFA08E00517D27 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		FAECCA6B28FFA3E100517D27 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		FAECCA6D28FFA41D00517D27 /* PlayfairDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		FAECCA6E28FFA41D00517D27 /* PlayfairDisplay-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Italic.ttf"; sourceTree = "<group>"; };
+		FAECCA6F28FFA41E00517D27 /* PlayfairDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D999EAB610E410968D529AA6 /* Pods_RabitSlideMenuDemo0.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +93,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDCC2A37817AC546C50CDB48 /* Pods_RabitSlideMenuDemo0Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1558A415A26E02F6F310CB10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C94A9D73348BFEB93C33C2FB /* Pods_RabitSlideMenuDemo0.framework */,
+				AD03F7D6B30A57FBF88E68A9 /* Pods_RabitSlideMenuDemo0Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50CB0801F73A1694E270AEA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				434BF48462838EF440A35F6A /* Pods-RabitSlideMenuDemo0.debug.xcconfig */,
+				0FB0AF620A29FDE8CC455F30 /* Pods-RabitSlideMenuDemo0.release.xcconfig */,
+				4A14EFAC3447A4C8D497DC2E /* Pods-RabitSlideMenuDemo0Tests.debug.xcconfig */,
+				E6B2AFCC892F310AD901374B /* Pods-RabitSlideMenuDemo0Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CE3B18C6221AA2A2001C8360 = {
 			isa = PBXGroup;
 			children = (
 				CE3B18D1221AA2A2001C8360 /* RabitSlideMenuDemo0 */,
 				CE3B18E6221AA2A3001C8360 /* RabitSlideMenuDemo0Tests */,
 				CE3B18D0221AA2A2001C8360 /* Products */,
+				50CB0801F73A1694E270AEA2 /* Pods */,
+				1558A415A26E02F6F310CB10 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +143,11 @@
 		CE3B18D1221AA2A2001C8360 /* RabitSlideMenuDemo0 */ = {
 			isa = PBXGroup;
 			children = (
+				FAECCA6828FFA22B00517D27 /* Resource */,
+				FAECCA4B28FEB46D00517D27 /* Modules */,
+				FAECCA4828FEB08D00517D27 /* Extension */,
+				FAECCA4528FEB05900517D27 /* Network */,
+				FAECCA4228FEAFD600517D27 /* Model */,
 				CE3B18D2221AA2A2001C8360 /* AppDelegate.swift */,
 				CE3B18D4221AA2A2001C8360 /* ViewController.swift */,
 				CE3B18D6221AA2A2001C8360 /* Main.storyboard */,
@@ -96,6 +167,130 @@
 			path = RabitSlideMenuDemo0Tests;
 			sourceTree = "<group>";
 		};
+		FAECCA4228FEAFD600517D27 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAECCA4328FEAFE100517D27 /* Documentation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FAECCA4528FEB05900517D27 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FAECCA4628FEB07100517D27 /* Network.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		FAECCA4828FEB08D00517D27 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FAECCA4928FEB0A100517D27 /* Data+Extension.swift */,
+				FAECCA5028FF904D00517D27 /* Identifier.swift */,
+				FAECCA5228FF906A00517D27 /* UIView+Extension.swift */,
+				FAECCA5428FF908800517D27 /* UITableView+Extension.swift */,
+				FAECCA6628FFA08E00517D27 /* UIViewController+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		FAECCA4B28FEB46D00517D27 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				FAECCA4C28FEB47500517D27 /* Films */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		FAECCA4C28FEB47500517D27 /* Films */ = {
+			isa = PBXGroup;
+			children = (
+				FAECCA5D28FF956F00517D27 /* ViewModel */,
+				FAECCA5628FF923600517D27 /* View */,
+				FAECCA4D28FEB48200517D27 /* Controller */,
+			);
+			path = Films;
+			sourceTree = "<group>";
+		};
+		FAECCA4D28FEB48200517D27 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FAECCA4E28FEB4A200517D27 /* FilmsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FAECCA5628FF923600517D27 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FAECCA6028FF9E6100517D27 /* View */,
+				FAECCA5728FF923E00517D27 /* TableViewCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FAECCA5728FF923E00517D27 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				FAECCA5828FF93E000517D27 /* FilmTableViewCell */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		FAECCA5828FF93E000517D27 /* FilmTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				FAECCA5928FF943300517D27 /* FilmTableViewCell.swift */,
+				FAECCA5A28FF943300517D27 /* FilmTableViewCell.xib */,
+			);
+			path = FilmTableViewCell;
+			sourceTree = "<group>";
+		};
+		FAECCA5D28FF956F00517D27 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FAECCA5E28FF958800517D27 /* FilmsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FAECCA6028FF9E6100517D27 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FAECCA6128FF9E6700517D27 /* SearchView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FAECCA6128FF9E6700517D27 /* SearchView */ = {
+			isa = PBXGroup;
+			children = (
+				FAECCA6228FF9EC400517D27 /* SearchView.swift */,
+				FAECCA6428FF9ECD00517D27 /* SearchView.xib */,
+			);
+			path = SearchView;
+			sourceTree = "<group>";
+		};
+		FAECCA6828FFA22B00517D27 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				FAECCA6B28FFA3E100517D27 /* R.generated.swift */,
+				FAECCA6928FFA23600517D27 /* Fonts */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		FAECCA6928FFA23600517D27 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FAECCA6F28FFA41E00517D27 /* PlayfairDisplay-Bold.ttf */,
+				FAECCA6E28FFA41D00517D27 /* PlayfairDisplay-Italic.ttf */,
+				FAECCA6D28FFA41D00517D27 /* PlayfairDisplay-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +298,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE3B18EC221AA2A3001C8360 /* Build configuration list for PBXNativeTarget "RabitSlideMenuDemo0" */;
 			buildPhases = (
+				41B879D71CD4DA5DC7374676 /* [CP] Check Pods Manifest.lock */,
+				FAECCA6A28FFA31B00517D27 /* R.swift */,
 				CE3B18CB221AA2A2001C8360 /* Sources */,
 				CE3B18CC221AA2A2001C8360 /* Frameworks */,
 				CE3B18CD221AA2A2001C8360 /* Resources */,
+				B580559AE7E076B2193C100B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,6 +318,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE3B18EF221AA2A3001C8360 /* Build configuration list for PBXNativeTarget "RabitSlideMenuDemo0Tests" */;
 			buildPhases = (
+				C48EDD95AA8430C2D317A1BF /* [CP] Check Pods Manifest.lock */,
 				CE3B18DF221AA2A3001C8360 /* Sources */,
 				CE3B18E0221AA2A3001C8360 /* Frameworks */,
 				CE3B18E1221AA2A3001C8360 /* Resources */,
@@ -177,9 +376,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAECCA7228FFA41E00517D27 /* PlayfairDisplay-Bold.ttf in Resources */,
 				CE3B18DD221AA2A3001C8360 /* LaunchScreen.storyboard in Resources */,
+				FAECCA6528FF9ECD00517D27 /* SearchView.xib in Resources */,
+				FAECCA7028FFA41E00517D27 /* PlayfairDisplay-Regular.ttf in Resources */,
+				FAECCA5C28FF943300517D27 /* FilmTableViewCell.xib in Resources */,
 				CE3B18DA221AA2A3001C8360 /* Assets.xcassets in Resources */,
 				CE3B18D8221AA2A2001C8360 /* Main.storyboard in Resources */,
+				FAECCA7128FFA41E00517D27 /* PlayfairDisplay-Italic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,13 +396,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		41B879D71CD4DA5DC7374676 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RabitSlideMenuDemo0-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B580559AE7E076B2193C100B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RabitSlideMenuDemo0/Pods-RabitSlideMenuDemo0-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RabitSlideMenuDemo0/Pods-RabitSlideMenuDemo0-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RabitSlideMenuDemo0/Pods-RabitSlideMenuDemo0-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C48EDD95AA8430C2D317A1BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RabitSlideMenuDemo0Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAECCA6A28FFA31B00517D27 /* R.swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = R.swift;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE3B18CB221AA2A2001C8360 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAECCA4F28FEB4A200517D27 /* FilmsViewController.swift in Sources */,
+				FAECCA6C28FFA3E100517D27 /* R.generated.swift in Sources */,
+				FAECCA6728FFA08E00517D27 /* UIViewController+Extension.swift in Sources */,
 				CE3B18D5221AA2A2001C8360 /* ViewController.swift in Sources */,
+				FAECCA5F28FF958800517D27 /* FilmsViewModel.swift in Sources */,
+				FAECCA5528FF908800517D27 /* UITableView+Extension.swift in Sources */,
+				FAECCA6328FF9EC400517D27 /* SearchView.swift in Sources */,
+				FAECCA5328FF906A00517D27 /* UIView+Extension.swift in Sources */,
 				CE3B18D3221AA2A2001C8360 /* AppDelegate.swift in Sources */,
+				FAECCA5128FF904D00517D27 /* Identifier.swift in Sources */,
+				FAECCA4A28FEB0A100517D27 /* Data+Extension.swift in Sources */,
+				FAECCA4728FEB07100517D27 /* Network.swift in Sources */,
+				FAECCA4428FEAFE100517D27 /* Documentation.swift in Sources */,
+				FAECCA5B28FF943300517D27 /* FilmTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,10 +658,13 @@
 		};
 		CE3B18ED221AA2A3001C8360 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 434BF48462838EF440A35F6A /* Pods-RabitSlideMenuDemo0.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LW34R6CMB;
 				INFOPLIST_FILE = RabitSlideMenuDemo0/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -375,10 +678,13 @@
 		};
 		CE3B18EE221AA2A3001C8360 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FB0AF620A29FDE8CC455F30 /* Pods-RabitSlideMenuDemo0.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LW34R6CMB;
 				INFOPLIST_FILE = RabitSlideMenuDemo0/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -392,6 +698,7 @@
 		};
 		CE3B18F0221AA2A3001C8360 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A14EFAC3447A4C8D497DC2E /* Pods-RabitSlideMenuDemo0Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -412,6 +719,7 @@
 		};
 		CE3B18F1221AA2A3001C8360 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6B2AFCC892F310AD901374B /* Pods-RabitSlideMenuDemo0Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="PlayfairDisplay-Bold.ttf">
+            <string>PlayfairDisplay-Bold</string>
+        </array>
+        <array key="PlayfairDisplay-Regular.ttf">
+            <string>PlayfairDisplay-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="158" id="KGk-i7-Jjw" customClass="FilmTableViewCell" customModule="RabitSlideMenuDemo0" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="158"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="158"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rib-Pf-HsM">
+                        <rect key="frame" x="16" y="8" width="288" height="120"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nZC-yF-28I">
+                                <rect key="frame" x="8" y="8" width="104" height="104"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="nZC-yF-28I" secondAttribute="height" id="NHz-w1-0Ps"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="FBC-aY-Qjb">
+                                <rect key="frame" x="120" y="8" width="160" height="104"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d1G-oK-yuB">
+                                        <rect key="frame" x="0.0" y="0.0" width="160" height="20"/>
+                                        <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FWw-6y-ifw">
+                                        <rect key="frame" x="0.0" y="28" width="160" height="20"/>
+                                        <fontDescription key="fontDescription" name="PlayfairDisplay-Regular" family="Playfair Display" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zBv-Mg-Mxh">
+                                        <rect key="frame" x="0.0" y="56" width="160" height="20"/>
+                                        <fontDescription key="fontDescription" name="PlayfairDisplay-Regular" family="Playfair Display" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ExF-j4-z2w">
+                                        <rect key="frame" x="0.0" y="84" width="160" height="20"/>
+                                        <fontDescription key="fontDescription" name="PlayfairDisplay-Regular" family="Playfair Display" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="120" id="13q-Ab-mRl"/>
+                            <constraint firstItem="FBC-aY-Qjb" firstAttribute="leading" secondItem="nZC-yF-28I" secondAttribute="trailing" constant="8" id="8g9-cG-O7e"/>
+                            <constraint firstAttribute="bottom" secondItem="nZC-yF-28I" secondAttribute="bottom" constant="8" id="E6W-aG-do1"/>
+                            <constraint firstItem="FBC-aY-Qjb" firstAttribute="top" secondItem="Rib-Pf-HsM" secondAttribute="top" constant="8" id="WRt-95-QeH"/>
+                            <constraint firstAttribute="bottom" secondItem="FBC-aY-Qjb" secondAttribute="bottom" constant="8" id="dHa-b4-Ufy"/>
+                            <constraint firstAttribute="trailing" secondItem="FBC-aY-Qjb" secondAttribute="trailing" constant="8" id="e7j-wn-xYx"/>
+                            <constraint firstItem="nZC-yF-28I" firstAttribute="leading" secondItem="Rib-Pf-HsM" secondAttribute="leading" constant="8" id="mlN-gb-mGe"/>
+                            <constraint firstItem="nZC-yF-28I" firstAttribute="top" secondItem="Rib-Pf-HsM" secondAttribute="top" constant="8" id="zyl-TU-c7E"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Rib-Pf-HsM" secondAttribute="trailing" constant="16" id="CVL-9p-5Z9"/>
+                    <constraint firstItem="Rib-Pf-HsM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="NIx-3s-ba9"/>
+                    <constraint firstItem="Rib-Pf-HsM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="VZN-h5-ohK"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Rib-Pf-HsM" secondAttribute="bottom" constant="8" id="bPE-Cj-SMj"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="avatarImageView" destination="nZC-yF-28I" id="JH4-Dy-RUH"/>
+                <outlet property="containerView" destination="Rib-Pf-HsM" id="Mr8-Di-YVE"/>
+                <outlet property="lLabel" destination="d1G-oK-yuB" id="q7u-yH-JFL"/>
+                <outlet property="rankLabel" destination="FWw-6y-ifw" id="PLZ-Bc-2Im"/>
+                <outlet property="sLabel" destination="ExF-j4-z2w" id="Lf8-cg-k65"/>
+                <outlet property="yrLabel" destination="zBv-Mg-Mxh" id="rOC-nb-ddN"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="114.50892857142857"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
